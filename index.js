@@ -3,7 +3,7 @@ const cors = require('cors');
 const admin = require('firebase-admin');
 
 // Load Service Account Key
-const serviceAccount = require('./etc/secrets/serviceAccountKey.json');
+const serviceAccount = require('/etc/secrets/serviceAccountKey.json');
 
 // Initialize Firebase Admin SDK
 admin.initializeApp({
