@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json(<h1>Pashu Seva API Check<h1>)
+  res.json("<h1>Pashu Seva API Check<h1>")
 })
 // API endpoint to send notification
 app.post('/send-notification', async (req, res) => {
