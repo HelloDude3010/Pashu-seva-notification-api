@@ -32,7 +32,7 @@ app.post('/send-notification', async (req, res) => {
   try {
     const response = await admin.messaging().send(message);
     // console.log("2");
-    console.log('Successfully sent message:', response);
+    // console.log('Successfully sent message:', response);
     res.status(200).send({ success: true, response });
   } catch (error) {
     // console.log("3");
